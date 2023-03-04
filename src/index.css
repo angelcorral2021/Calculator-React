@@ -5,12 +5,12 @@
 
 @layer components{
   body{
-    @apply bg-[#219ebc]
+    @apply bg-[#c56ac5]
   }
 
 
 .calculator{
-  @apply bg-[#023047] w-80 mx-auto mt-10 p-4 rounded-lg shadow-lg;
+  @apply bg-[#084664] w-80 mx-auto mt-20 p-8 rounded-lg ;
 }
 
 input{

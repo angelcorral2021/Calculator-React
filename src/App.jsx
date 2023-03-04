@@ -27,7 +27,10 @@ function App() {
   };
 
   return (
-    <div className="calculator">
+
+    <div className="flex justify-center items-center mt-20">
+     
+    <div className="calculator ">
       <input type="text" value={result} disabled />
 
       <div className="buttons">
@@ -59,7 +62,7 @@ function App() {
         <button id="=" className="operator" onClick={calculate}>=</button>
 
       </div>
-
+      </div>
 
 
 
